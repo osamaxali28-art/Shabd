@@ -1,0 +1,12 @@
+build/
+cmake-build-*/
+.vs/
+.vscode/
+.idea/
+*.bin
+dist/
+training/data/
+training/out/
+training/songs/
+__pycache__/
+.DS_Store

@@ -1,0 +1,294 @@
+# Shabd Roman Urdu lexicon
+# Columns (tab separated): urdu_script <TAB> canonical_roman <TAB> variants (| separated) <TAB> tag
+# tag: (empty) = Urdu/Hindustani word, en = English loanword, name = proper noun (capitalised)
+# Use "-" in the urdu column for words that only appear in Roman form.
+# Edit freely: this file is the single source of truth for how Shabd spells words.
+#
+# --- core grammar ---
+ہے	hai	hay|hy|h|hae
+ہیں	hain	hn|hein|hai'n
+نہیں	nahi	nai|nahin|nhi|ni|nahee|nhn
+میں	main	mai|mn
+کیا	kya	kia|kyaa
+کیوں	kyun	kyu|kyon|kiyun|q
+تو	toh
+تُو	tu	tou
+ہوں	hoon	hun|hu|hon|houn
+ہو	ho	hou
+ہوا	hua	huwa|howa
+ہوئی	hui	huwi|hoi
+ہوئے	hue	huay|huye|hoe
+تھا	tha	tah
+تھی	thi
+تھے	the	thay
+گا	ga	gaa
+گی	gi	gee
+گے	ge
+کا	ka	kaa
+کی	ki	kee
+کے	ke	kay|kai
+کو	ko	ku|kou
+سے	se	sey|sy
+پہ	pe	pey
+پے	pe	pey
+پر	par	pr
+نے	ne	nay|ny
+بھی	bhi	b|bhe|bhee
+ہی	hi	hee
+جو	jo	joh
+کہ	ke	keh|k
+یہ	yeh	ye|yah|ye'
+وہ	woh	wo|voh|vo|wuh
+اور	aur	aor|aur'
+لیکن	lekin	lekn|lekan
+مگر	magar	mgr
+پھر	phir	fir|phr|phir'
+اگر	agar	agr
+کیونکہ	kyunke	kyunki|kyun ke|kiunke|q k
+یا	ya	yaa
+نہ	na	naa
+ہاں	haan	han|haa
+جب	jab	jb
+تب	tab	tb
+اب	ab	abb
+سب	sab	sb
+ابھی	abhi	abhee|abi
+کبھی	kabhi	kabi|kbhi
+بس	bas	bs
+صرف	sirf	srf
+کچھ	kuch	kuchh|kch
+کوئی	koi	koyi|koee
+ہر	har	hr
+جیسے	jaise	jesay|jaisay|jese
+ویسے	waise	wesay|waisay|vaise
+ایسا	aisa	esa|aysa
+ویسا	waisa	wesa|vaisa
+کتنا	kitna	kitnaa
+اتنا	itna	itnaa
+جتنا	jitna	jitnaa
+یہاں	yahan	yahaan|yaha|yhan
+وہاں	wahan	wahaan|waha|vahan
+کہاں	kahan	kahaan
+کب	kab	kb
+کیسے	kaise	kesay|kaisay|kese
+کون	kaun	kon|kaon
+جس	jis	js
+کس	kis	ks
+# --- pronouns ---
+ہم	hum	hm|ham
+تم	tum	tm
+آپ	aap	ap
+مجھے	mujhe	mujhay|mjhe|mujhy
+تجھے	tujhe	tujhay|tjhe|tujhy
+ہمیں	humein	hamein|humen|hamain
+تمہیں	tumhein	tumhen|tumhain|tumein
+اسے	usay	isay|ise
+اس	us
+ان	un
+اپنا	apna	apnaa
+اپنی	apni	apnee
+اپنے	apne	apnay
+میرا	mera	meraa
+میری	meri	meree
+میرے	mere	meray
+تیرا	tera	teraa
+تیری	teri	teree
+تیرے	tere	teray
+ہمارا	humara	hamara
+ہماری	humari	hamari
+تمہارا	tumhara	tumhaara
+مَیں	main
+# --- verbs ---
+کر	kar	kr
+کرنا	karna	krna
+کرتا	karta	krta
+کرتی	karti	krti
+کرتے	karte	krte|kartay
+گیا	gaya	gya|gyaa
+گئی	gayi	gai|gyi
+گئے	gaye	gae|gaay
+جا	ja	jaa
+جانا	jana	jaana
+آ	aa
+آنا	aana	ana
+آیا	aaya	aya|aayaa
+آئی	aayi	ayi|aai
+آئے	aaye	aye|aae
+دے	de	dey
+دیا	diya	dia|dya
+لے	le	ley
+لیا	liya	lia|lya
+رہا	raha	rha
+رہی	rahi	rhi
+رہے	rahe	rhe|rahay
+سکتا	sakta	skta
+سکتی	sakti	skti
+چاہیے	chahiye	chaiye|chahye
+چاہتا	chahta	chahata
+بول	bol	boll
+بولا	bola	bolaa
+سن	sun	sunn
+سنا	suna	sunaa
+دیکھ	dekh	dekhh
+دیکھا	dekha	dekhaa
+مار	maar	mar
+چل	chal	chl
+چلا	chala	chlaa
+لگ	lag	lg
+لگا	laga	lga
+لگتا	lagta	lgta
+بن	ban	bn
+بنا	bana	bnaa
+مل	mil	ml
+ملا	mila	mla
+کہا	kaha	kahaa
+سمجھ	samajh	samaj|smjh
+سوچ	soch	sooch
+رکھ	rakh	rakkh
+اٹھ	uth	utth
+گر	gir	girr
+کھا	kha	khaa
+جی	ji	jee
+جیت	jeet	jeeet
+ہار	haar
+# --- nouns (rap vocabulary) ---
+یار	yaar	yar|yarr
+بھائی	bhai	bhae|bhaii|bhaee
+دل	dil	dill
+جان	jaan	jan
+زندگی	zindagi	zindgi|zindagee
+دنیا	duniya	dunya|duniyaa
+وقت	waqt	wakt|waqat
+بات	baat
+رات	raat
+دن	din	dinn
+سال	saal	sal
+پیار	pyaar	pyar|piyar
+عشق	ishq	ishk
+خواب	khwaab	khwab|khaab
+نام	naam	nam
+کام	kaam	kam
+پیسہ	paisa	pesa|paisaa
+پیسے	paise	pese|paisay
+گھر	ghar	ghr
+شہر	shehar	shehr|shahar
+گلی	gali	galli
+سڑک	sarak	sadak|surak
+لوگ	log	logg
+دشمن	dushman	dushmn
+دوست	dost	dosst
+ماں	maa	maan|ma
+باپ	baap	bap
+ابو	abbu	abu
+امی	ammi	ami
+خدا	Khuda	khuda|khudaa
+اللہ	Allah	allah|alla	name
+رب	Rabb	rab
+دعا	dua	duaa|dowa
+قسم	qasam	kasam|qsm
+عزت	izzat	izat|ezzat
+غیرت	ghairat	gherat|gairat
+حق	haq	haqq|hak
+سچ	sach	sachh
+جھوٹ	jhoot	jhut|jhooth
+آگ	aag	ag
+پانی	paani	pani
+آسمان	aasmaan	asman|aasman
+زمین	zameen	zamin|zamen
+سر	sar	sarr
+ہاتھ	haath	hath
+آنکھ	aankh	ankh
+آنکھیں	aankhein	ankhen|aankhen
+منہ	munh	mun
+لفظ	lafz	lafaz
+الفاظ	alfaaz	alfaz
+شعر	sher	shair|sheir
+قلم	qalam	kalam|qlm
+سیاہی	siyahi	syahi
+آواز	awaaz	awaz|aawaz
+شور	shor	shorr
+درد	dard	drd
+غم	gham	gam
+خوشی	khushi	khushee
+ڈر	dar	darr
+جنگ	jang	jung
+راستہ	raasta	rasta
+منزل	manzil	manzl
+سفر	safar	sfr
+ملک	mulk	mulq
+قوم	qaum	kaum|qoum
+# --- adjectives / adverbs / numbers ---
+بہت	bohat	bahut|bht|bohot|bhot
+اچھا	acha	achha|acha'
+برا	bura	buraa
+سچا	sacha	sachha
+نیا	naya	nya
+پرانا	purana	puraana
+بڑا	bara	bada|barra
+چھوٹا	chota	chhota
+اونچا	ooncha	uncha
+پورا	poora	pura
+سارا	saara	sara
+ساری	saari	sari
+سارے	saare	sare
+آج	aaj	aj
+کل	kal	kl
+ساتھ	saath	sath
+پاس	paas	pas
+دور	door	dur
+اندر	andar	andr
+باہر	bahar	baahar|bahir
+اوپر	upar	oopar|uper
+نیچے	neeche	neechay|niche
+آگے	aage	agay|aagay
+پیچھے	peeche	peechay|piche
+ایک	ek	aik|ik
+دو	do	doh
+تین	teen
+چار	chaar	char
+پانچ	paanch	panch
+سو	sau
+ہزار	hazaar	hazar
+لاکھ	lakh	laakh
+کروڑ	crore	karor|karore
+# --- English loanwords as Whisper writes them in Urdu script ---
+فلو	flow	flo	en
+سین	scene		en
+بیٹ	beat		en
+بیٹس	beats	beetz	en
+مائیک	mic	mike|maik	en
+گیم	game	gaim	en
+ریئل	real	reel|riyal	en
+فیک	fake	faik	en
+بارز	bars	baarz	en
+ریپ	rap		en
+ریپر	rapper	repper	en
+سٹائل	style	stail|sitail	en
+لیول	level	lewal	en
+ٹائم	time	taim	en
+برو	bro	bruh	en
+ہیٹرز	haters	heaters	en
+کریو	crew	kru	en
+بیف	beef	beaf	en
+ہائپ	hype	haip	en
+ڈراپ	drop	drap	en
+شو	show	sho	en
+سٹوڈیو	studio	stodio	en
+فین	fan	fen	en
+فینز	fans	fanz	en
+سکل	skill	skil	en
+ورس	verse	vers	en
+کورس	chorus	koras	en
+لائن	line	lain	en
+# --- places / names ---
+پاکستان	Pakistan	pakistan	name
+لاہور	Lahore	lahore|lahor	name
+کراچی	Karachi	karachi	name
+اسلام آباد	Islamabad	islamabad	name
+پنڈی	Pindi	pindi	name
+پشاور	Peshawar	peshawar|pishawar	name
+# --- ad-libs (Roman only) ---
+-	yeah	yea|yeahh
+-	skrrt	skrt|skirt
+-	ayy	ay|ayyy
+
