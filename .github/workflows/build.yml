@@ -12,7 +12,7 @@ jobs:
     name: Roman Urdu engine tests
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Build + test core
         run: |
           cmake -B build -DSHABD_CORE_ONLY=ON -DCMAKE_BUILD_TYPE=Release
@@ -34,7 +34,7 @@ jobs:
             os: macos-latest
             targets: Shabd_VST3 Shabd_AU Shabd_Standalone shabd-cli
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Configure
         shell: bash
@@ -68,7 +68,7 @@ jobs:
           find build -type f \( -name shabd-cli -o -name shabd-cli.exe \) -exec cp {} dist/ \;
           cp lexicon/roman_urdu.tsv docs/ROMAN_URDU_STYLE.md dist/
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: Shabd-${{ runner.os }}
           path: dist

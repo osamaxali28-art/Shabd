@@ -55,4 +55,5 @@ private:
 
     void layout();
     void commitEdit();
+    void cancelEdit();
 };

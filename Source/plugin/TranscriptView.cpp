@@ -144,13 +144,7 @@ void TranscriptView::mouseDoubleClick (const juce::MouseEvent& e)
                 editor->setColour (juce::TextEditor::outlineColourId, accent());
                 editor->setColour (juce::TextEditor::textColourId, juce::Colours::white);
                 editor->onReturnKey = [this] { commitEdit(); };
-                editor->onEscapeKey = [this]
-                {
-                    juce::MessageManager::callAsync ([safe = juce::Component::SafePointer<TranscriptView> (this)]
-                    {
-                        if (safe != nullptr) { safe->editor.reset(); safe->repaint(); }
-                    });
-                };
+                editor->onEscapeKey = [this] { cancelEdit(); };
                 editor->onFocusLost = [this] { commitEdit(); };
                 addAndMakeVisible (*editor);
                 editor->setBounds (w.box.expanded (24.0f, 3.0f).toNearestInt());
@@ -160,13 +154,24 @@ void TranscriptView::mouseDoubleClick (const juce::MouseEvent& e)
             }
 }
 
+void TranscriptView::cancelEdit()
+{
+    // Defer destruction: we're inside one of the editor's own callbacks.
+    juce::Component::SafePointer<TranscriptView> safe (this);
+    juce::MessageManager::callAsync ([safe]
+    {
+        if (safe != nullptr) { safe->editor.reset(); safe->repaint(); }
+    });
+}
+
 void TranscriptView::commitEdit()
 {
     if (editor == nullptr) return;
     const auto text = editor->getText().trim().toStdString();
     const auto index = editingIndex;
     // Defer destruction: we may be inside one of the editor's own callbacks.
-    juce::MessageManager::callAsync ([safe = juce::Component::SafePointer<TranscriptView> (this), index, text]
+    juce::Component::SafePointer<TranscriptView> safe (this);
+    juce::MessageManager::callAsync ([safe, index, text]
     {
         if (safe == nullptr || safe->editor == nullptr) return;
         safe->editor.reset();
